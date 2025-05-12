@@ -1,0 +1,29 @@
+0 verbose cli /usr/bin/node /usr/lib/node_modules/npm/bin/npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v22.15.0
+3 silly config load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/app/workspace/.npmrc
+5 silly config load:file:/usr/etc/npmrc
+6 verbose title npm exec create-next-app@latest todo-app --typescript
+7 verbose argv "exec" "--" "create-next-app@latest" "todo-app" "--typescript"
+8 verbose logfile logs-max:10 dir:/app/workspace/.npm/_logs/2025-05-12T10_12_31_348Z-
+9 verbose logfile /app/workspace/.npm/_logs/2025-05-12T10_12_31_348Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly packumentCache heap:1098907648 maxSize:274726912 maxEntrySize:137363456
+12 http fetch GET 200 https://registry.npmjs.org/npm 105ms
+13 http fetch GET 200 https://registry.npmjs.org/create-next-app 164ms (cache miss)
+14 silly packumentCache heap:1098907648 maxSize:274726912 maxEntrySize:137363456
+15 silly packumentCache heap:1098907648 maxSize:274726912 maxEntrySize:137363456
+16 silly idealTree buildDeps
+17 silly fetch manifest create-next-app@15.3.2
+18 silly packumentCache full:https://registry.npmjs.org/create-next-app cache-miss
+19 http fetch GET 200 https://registry.npmjs.org/create-next-app 171ms (cache miss)
+20 silly packumentCache full:https://registry.npmjs.org/create-next-app set size:undefined disposed:false
+21 silly placeDep ROOT create-next-app@15.3.2 OK for:  want: 15.3.2
+22 silly reify moves {}
+23 silly audit bulk request { 'create-next-app': [ '15.3.2' ] }
+24 http cache create-next-app@https://registry.npmjs.org/create-next-app/-/create-next-app-15.3.2.tgz 1ms (cache hit)
+25 silly tarball no local data for create-next-app@https://registry.npmjs.org/create-next-app/-/create-next-app-15.3.2.tgz. Extracting by manifest.
+26 http fetch GET 200 https://registry.npmjs.org/create-next-app/-/create-next-app-15.3.2.tgz 126ms (cache miss)
+27 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 295ms
+28 silly audit report {}
