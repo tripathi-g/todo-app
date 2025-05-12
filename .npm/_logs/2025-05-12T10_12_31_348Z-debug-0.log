@@ -27,3 +27,14 @@
 26 http fetch GET 200 https://registry.npmjs.org/create-next-app/-/create-next-app-15.3.2.tgz 126ms (cache miss)
 27 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 295ms
 28 silly audit report {}
+29 verbose cwd /app/workspace
+30 verbose os Linux 6.8.0-1021-aws
+31 verbose node v22.15.0
+32 verbose npm  v10.9.2
+33 notice
+33 notice New [31mmajor[39m version of npm available! [31m10.9.2[39m -> [34m11.3.0[39m
+33 notice Changelog: [34mhttps://github.com/npm/cli/releases/tag/v11.3.0[39m
+33 notice To update run: [4mnpm install -g npm@11.3.0[24m
+33 notice  { force: true, [Symbol(proc-log.meta)]: true }
+34 verbose exit 0
+35 info ok
